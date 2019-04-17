@@ -75,8 +75,11 @@ To run the `stocks.py` file, type `python stocks.py` in the Terminal in CS50. An
 > 
 > - [MongoDB Query Comparison Operators](https://docs.mongodb.com/manual/reference/operator/query-comparison/)
 
+#### 14. What company's (or companies') stock was valued at $9.78 in October, 2000? Return only the name of the company.
 
+#### 15. What was the price of Amazon's Stock in August, 2006? Return only the price.
 
+#### 16. What was the highest historical price of Microsoft's stock? Return only the price.
 
 ## Additional Documentation
 
