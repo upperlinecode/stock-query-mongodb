@@ -20,6 +20,12 @@ Your challenge will be to query the MongoDB to produce a single result or multip
 
 We're going to continue working in [ide.cs50.io](https://ide.cs50.io), so clone this repository into CS50 as you've done before.
 
+You'll also need to install PyMongo in the CS50 IDE to help connect to the MongoDB database:
+
+```python
+pip install pymongo --user
+```
+
 ### Running stocks.py
 
 To run the `stocks.py` file, type `python stocks.py` in the Terminal in CS50. Anything you `print()` will be shown in the Terminal, too.
