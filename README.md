@@ -22,7 +22,7 @@ We're going to continue working in [ide.cs50.io](https://ide.cs50.io), so clone 
 
 You'll also need to install PyMongo in the CS50 IDE to help connect to the MongoDB database:
 
-```python
+```bash
 pip install pymongo --user
 ```
 
