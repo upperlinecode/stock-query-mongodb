@@ -26,6 +26,8 @@ To run the `stocks.py` file, type `python stocks.py` in the Terminal in CS50. An
 
 # Challenges
 
+## Warmups
+
 #### 1. List all entries in the `prices` collection in the `stock-prices` database.
 
 > You'll notice we've given you a bit help on this one to start out.
@@ -57,7 +59,25 @@ To run the `stocks.py` file, type `python stocks.py` in the Terminal in CS50. An
 
 #### 8. List all historical stock prices in order from lowest value to highest value
 
+#### 9. List the first 5 historical stocks in the database.
 
-> https://docs.mongodb.com/manual/reference/operator/query/
+#### 10. Find an historical stock that was valued at $100.52. 
 
-> https://docs.mongodb.com/manual/reference/operator/query-comparison/
+## Showtime
+
+#### 11. List the first 10 Apple entries in the database.
+
+#### 12. List the January IBM stock prices from lowest to highest.
+
+#### 13. List all historical stock prices over $200.00
+
+> Here's a bit of help:
+> 
+> - [MongoDB Query Comparison Operators](https://docs.mongodb.com/manual/reference/operator/query-comparison/)
+
+
+
+
+## Additional Documentation
+
+- [MongoDB Query Operators](https://docs.mongodb.com/manual/reference/operator/query/)
