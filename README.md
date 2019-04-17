@@ -44,6 +44,8 @@ To run the `stocks.py` file, type `python stocks.py` in the Terminal in CS50. An
 > for entry in data:
 > 	print(entry)
 > ```
+> 
+> So we've given you the search query to solve this one. What's missing?
 
 #### 2. List all historical Microsoft stock prices
 
@@ -87,7 +89,7 @@ To run the `stocks.py` file, type `python stocks.py` in the Terminal in CS50. An
 
 > Here's a bit of help:
 >
-> - [MongoDB Count Method](https://docs.mongodb.com/manual/reference/method/db.collection.count/)
+> - [MongoDB .count() Method](https://docs.mongodb.com/manual/reference/method/db.collection.count/)
 
 ## Additional Documentation
 
