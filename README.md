@@ -65,33 +65,31 @@ To run the `stocks.py` file, type `python stocks.py` in the Terminal in CS50. An
 
 #### 7. List all historical stock prices in order from highest value to lowest value
 
-#### 8. List all historical stock prices in order from lowest value to highest value
+#### 8. List the first 5 historical stocks in the database.
 
-#### 9. List the first 5 historical stocks in the database.
-
-#### 10. Find an historical stock that was valued at $100.52. 
+#### 9. Find an historical stock that was valued at $100.52. 
 
 ## Showtime
 
-#### 11. List the first 10 Apple entries in the database.
+#### 10. List the first 10 Apple entries in the database.
 
-#### 12. List the January IBM stock prices from lowest to highest.
+#### 11. List the January IBM stock prices from lowest to highest.
 
-#### 13. List all historical stock prices over $200.00
+#### 12. List all historical stock prices over $200.00
 
 > Here's a bit of help:
 > 
 > - [MongoDB Query Comparison Operators](https://docs.mongodb.com/manual/reference/operator/query-comparison/)
 
-#### 14. List all historical stock prices less than $10.00.
+#### 13. List all historical stock prices less than $10.00.
 
-#### 15. What company's (or companies') stock was valued at $9.78 in October, 2000? Return only the name of the company.
+#### 14. What company's (or companies') stock was valued at $9.78 in October, 2000? Return only the name of the company.
 
-#### 16. What was the price of Amazon's Stock in August, 2006? Return only the price.
+#### 15. What was the price of Amazon's Stock in August, 2006? Return only the price.
 
-#### 17. What was the highest historical price of Microsoft's stock? Return only the price.
+#### 16. What was the highest historical price of Microsoft's stock? Return only the price.
 
-#### 18. For how many months (in the historical database) has Apple's stock price been greater than $100.00? Return only the number of months.
+#### 17. For how many months (in the historical database) has Apple's stock price been greater than $100.00? Return only the number of months.
 
 > Here's a bit of help:
 >
