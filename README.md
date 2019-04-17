@@ -45,7 +45,7 @@ To run the `stocks.py` file, type `python stocks.py` in the Terminal in CS50. An
 > 	print(entry)
 > ```
 > 
-> So we've given you the search query to solve this one. What's missing?
+> So we've given you the search query solution. What's missing?
 
 #### 2. List all historical Microsoft stock prices
 
