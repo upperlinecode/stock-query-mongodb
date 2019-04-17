@@ -6,5 +6,6 @@ db = client['<database>']
 collection = db.prices
 
 # write your queries here
-
+stocks = list(collection.find({}))
+print(stocks)
 
