@@ -67,33 +67,37 @@ To run the `stocks.py` file, type `python stocks.py` in the Terminal in CS50. An
 
 #### 8. List the first 5 historical stocks in the database.
 
-#### 9. Find an historical stock that was valued at $100.52. 
+#### 9. Find an historical stock that was valued at $100.52.
+
+#### 10. How many entries are there in the database for Apple stock prices?
+
+> Here's a bit of help:
+>
+> - [MongoDB .count() Method](https://docs.mongodb.com/manual/reference/method/db.collection.count/)
+>
+> You can use the `.count()` method to get the number of entries in the `Cursor`.
 
 ## Showtime
 
-#### 10. List the first 10 Apple entries in the database.
+#### 11. List the first 10 Apple entries in the database.
 
-#### 11. List the January IBM stock prices from lowest to highest.
+#### 12. List the January IBM stock prices from lowest to highest.
 
-#### 12. List all historical stock prices over $200.00
+#### 13. List all historical stock prices over $200.00
 
 > Here's a bit of help:
 > 
 > - [MongoDB Query Comparison Operators](https://docs.mongodb.com/manual/reference/operator/query-comparison/)
 
-#### 13. List all historical stock prices less than $10.00.
+#### 14. List all historical stock prices less than $10.00.
 
-#### 14. What company's (or companies') stock was valued at $9.78 in October, 2000? Return only the name of the company.
+#### 15. What company's (or companies') stock was valued at $9.78 in October, 2000? Return only the name of the company.
 
-#### 15. What was the price of Amazon's Stock in August, 2006? Return only the price.
+#### 16. What was the price of Amazon's Stock in August, 2006? Return only the price.
 
-#### 16. What was the highest historical price of Microsoft's stock? Return only the price.
+#### 17. What was the highest historical price of Microsoft's stock? Return only the price.
 
-#### 17. For how many months (in the historical database) has Apple's stock price been greater than $100.00? Return only the number of months.
-
-> Here's a bit of help:
->
-> - [MongoDB .count() Method](https://docs.mongodb.com/manual/reference/method/db.collection.count/)
+#### 18. For how many months (in the historical database) has Apple's stock price been greater than $100.00? Return only the number of months.
 
 ## Additional Documentation
 
