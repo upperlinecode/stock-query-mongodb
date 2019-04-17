@@ -43,21 +43,19 @@ To run the `stocks.py` file, type `python stocks.py` in the Terminal in CS50. An
 > 	print(entry)
 > ```
 
-#### 2. List all historical Amazon stock prices
+#### 2. List all historical Microsoft stock prices
 
-#### 3. List all historical Microsoft stock prices
+#### 3. List all historical stock prices from 2004
 
-#### 4. List all historical stock prices from 2004
+#### 4. List all historical stock prices from September
 
-#### 5. List all historical stock prices from September
+#### 5. List all historical stock prices from September 2004
 
-#### 6. List all historical stock prices from September 2004
+#### 6. List all historical stock prices in order from lowest value to highest value
 
-#### 7. List all historical stock prices in order from lowest value to highest value
+#### 7. List all historical stock prices in order from highest value to lowest value
 
-#### 8. List all historical stock prices in order from highest value to lowest value
-
-#### 9. List all historical stock prices in order from lowest value to highest value
+#### 8. List all historical stock prices in order from lowest value to highest value
 
 
 > https://docs.mongodb.com/manual/reference/operator/query/
