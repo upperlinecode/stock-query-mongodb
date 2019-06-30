@@ -18,17 +18,19 @@ Your challenge will be to query the MongoDB to produce a single result or multip
 
 ## Environment Setup
 
-We're going to continue working in [ide.cs50.io](https://ide.cs50.io), so clone this repository into CS50 as you've done before.
+We're going to continue working in your cloud9 environment, so clone this repository into your environment as you've done before.
 
-You'll also need to install PyMongo in the CS50 IDE to help connect to the MongoDB database:
+You'll also need to install PyMongo and dnspython in the Cloud9 IDE to help connect to the MongoDB database:
 
 ```bash
-pip install pymongo --user
+pip install pymongo
+pip install dnspython
+
 ```
 
 ### Running stocks.py
 
-To run the `stocks.py` file, type `python stocks.py` in the Terminal in CS50. Anything you `print()` will be shown in the Terminal, too.
+To run the `stocks.py` file, type `python stocks.py` in the Terminal in your IDE. Anything you `print()` will be shown in the Terminal, too.
 
 # Challenges
 
