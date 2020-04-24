@@ -23,8 +23,8 @@ We're going to continue working in your cloud9 environment, so clone this reposi
 You'll also need to install PyMongo and dnspython in the Cloud9 IDE to help connect to the MongoDB database:
 
 ```bash
-pip install pymongo
-pip install dnspython
+pip3 install pymongo
+pip3 install dnspython
 
 ```
 
