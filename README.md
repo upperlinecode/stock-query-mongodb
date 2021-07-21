@@ -108,6 +108,16 @@ To run the `stocks.py` file, type `python3 stocks.py` in the Terminal in your ID
 
 #### 18. For how many months (in the historical database) has Apple's stock price been greater than $100.00? Return only the number of months.
 
+## Investing Strategy!
+
+#### 19. Your friend thinks that stock prices usually increase over time.  For each stock in the database, find the oldest and the most recent prices. Is your friend's hypothesis correct?
+
+#### 20. Another friend wants to invest in the least risky (least volatile) stocks. For each year, for each stock, figure out the difference between the lowest price that year and the highest price that year.  (Extra credit: calculate the price difference as a percentage of the starting price.)  Which stock had the smallest price fluctuations (was the least volatile) on average?
+
+#### 21. A third friend thinks that stock prices are usually higher in the summer months, and so you should buy your stocks in May and sell them in September.  Write a query that will confirm or disconfirm this friend's investment thesis.
+
+#### 22. A fourth friend wants to study winning streaks and losing streaks, so she can buy stocks at their lowest value and make money as prices rise back up. Can you write code to find the longest winning streaks and losing streaks for each of the stocks in our database?  (Define a winning streak as a period of time when the price each month is higher than the month before, and a losing streak as the opposite.)  This one is tricky!
+
 ## Additional Documentation
 
 - [MongoDB Query Operators](https://docs.mongodb.com/manual/reference/operator/query/)
