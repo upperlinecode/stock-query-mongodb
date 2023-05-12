@@ -2,14 +2,14 @@
 
 ### The Goal
 
-We've got a database with historical stock prices from Amazon (AMZN), Apple (AAPL), IBM (IBM) and Microsoft (MSFT). The data is stored in a MongoDB where each entry/document is in the following format:
+We've got a database with historical stock prices from Starbucks (SBUX), Apple (AAPL), Tesla (TSLA) and Microsoft (MSFT). The data is stored in a MongoDB where each entry/document is in the following format:
 
 ```json
 {
-	"symbol" : "AMZN",
-	"month" : "Mar",
-	"year" : 2004,
-	"price" : 43.28
+	"symbol" : "SBUX",
+	"month" : "Feb",
+	"year" : 2023,
+	"price" : 102.09
 }
 
 ```
@@ -17,6 +17,8 @@ We've got a database with historical stock prices from Amazon (AMZN), Apple (AAP
 Your challenge will be to query the MongoDB to produce a single result or multiple results according to the descriptions below.
 
 ## Environment Setup
+
+> Note: if you're running this from Replit, you can skip this section.
 
 We're going to continue working in your Cloud Shell environment, so clone this repository into your environment as you've done before.
 
@@ -34,6 +36,8 @@ Be aware that you'll need to start by specifying the name of the database you wa
 ### Running stocks.py
 
 To run the `stocks.py` file, type `python3 stocks.py` in the Terminal in your IDE. Anything you `print()` will be shown in the Terminal, too. Bear in mind that while our intro to MongoDB included being able to SEE the entries on the MongoDB dashboard GUI (graphical user interface), this lab will be done entirely with queries, so you'll ONLY be able to see the content you print to the terminal. 
+
+> Note: if you're running this from Replit, you **can** go through these steps in the Shell tab, or you can simply press the Run button moving forward.
 
 # Challenges
 
@@ -60,11 +64,11 @@ To run the `stocks.py` file, type `python3 stocks.py` in the Terminal in your ID
 
 #### 2. List all historical Microsoft stock prices
 
-#### 3. List all historical stock prices from 2004
+#### 3. List all historical stock prices from 2020
 
 #### 4. List all historical stock prices from September
 
-#### 5. List all historical stock prices from September 2004
+#### 5. List all historical stock prices from September 2020
 
 #### 6. List all historical stock prices in order from lowest value to highest value
 
@@ -72,7 +76,7 @@ To run the `stocks.py` file, type `python3 stocks.py` in the Terminal in your ID
 
 #### 8. List the first 5 historical stocks in the database.
 
-#### 9. Find an historical stock that was valued at $100.52.
+#### 9. Find an historical stock that was valued at $165.30.
 
 #### 10. How many entries are there in the database for Apple stock prices?
 
@@ -86,7 +90,7 @@ To run the `stocks.py` file, type `python3 stocks.py` in the Terminal in your ID
 
 #### 11. List the first 10 Apple entries in the database.
 
-#### 12. List the January IBM stock prices from lowest to highest.
+#### 12. List the January Tesla stock prices from lowest to highest.
 
 #### 13. List all historical stock prices over $200.00
 
@@ -98,15 +102,15 @@ To run the `stocks.py` file, type `python3 stocks.py` in the Terminal in your ID
 > 
 > This is an example of a situation where the PyMongo documentation doesn't even *have* a comparable page, because they expect you to look at the JavaScript documentation and infer that it's probably the same. They do, however, include an [example of how to use one operator](https://pymongo.readthedocs.io/en/stable/tutorial.html?highlight=query#range-queries) in the tutorial, so if you're feeling stuck, looking at the JavaScript example, and want to see a Python example, that's a good place to start. 
 
-#### 14. List all historical stock prices less than $10.00.
+#### 14. List all historical stock prices less than $50.00.
 
-#### 15. What company's (or companies') stock was valued at $9.78 in October, 2000? Return only the name of the company.
+#### 15. What company's (or companies') stock was valued at $227.54 in October, 2022? Return only the name of the company.
 
-#### 16. What was the price of Amazon's Stock in August, 2006? Return only the price.
+#### 16. What was the price of Starbuck's Stock in August, 2021? Return only the price.
 
 #### 17. What was the highest historical price of Microsoft's stock? Return only the price.
 
-#### 18. For how many months (in the historical database) has Apple's stock price been greater than $100.00? Return only the number of months.
+#### 18. For how many months (in the historical database) has Apple's stock price been greater than $150.00? Return only the number of months.
 
 ## Investing Strategy!
 
